@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f9f2f7; 
+  color: #1b1821;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e61c77; 
+}
+
+button {
+  background-color: #ec4899; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #db2777; 
+}
+
+input, select {
+  border: 1px solid #f3a0c3; 
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #ec4899; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #f9f2f7; 
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+li:hover {
+  background-color: #f4d1e0; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
